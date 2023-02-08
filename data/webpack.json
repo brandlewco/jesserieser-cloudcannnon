@@ -1,13 +1,13 @@
 {
   "filter": {
-    "js": "filter.e15aa.js"
+    "js": "filter.js"
   },
   "main": {
-    "css": "main.e15aa.css",
-    "js": "main.e15aa.js"
+    "css": "main.css",
+    "js": "main.js"
   },
   "shop": {
-    "js": "shop.e15aa.js"
+    "js": "shop.js"
   },
   "": {
     "keep": "fonts/.keep"
