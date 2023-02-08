@@ -1,15 +1,12 @@
 {
   "filter": {
-    "js": "filter.js"
+    "js": "filter.2183d.js"
   },
   "main": {
-    "css": "main.css",
-    "js": "main.js"
+    "css": "main.2183d.css",
+    "js": "main.2183d.js"
   },
   "shop": {
-    "js": "shop.js"
-  },
-  "": {
-    "keep": "fonts/.keep"
+    "js": "shop.2183d.js"
   }
 }
