@@ -1,16 +1,16 @@
 {
   "main": {
-    "css": "main.dd46c.css",
-    "js": "main.dd46c.js"
+    "css": "/main.51abd.css",
+    "js": "/main.51abd.js"
   },
   "filter": {
-    "js": "filter.dd46c.js"
+    "js": "/filter.51abd.js"
   },
   "shop": {
-    "js": "shop.dd46c.js"
+    "js": "/shop.51abd.js"
   },
   "": {
-    "html": "index.html",
-    "keep": "fonts/.keep"
+    "html": "/index.html",
+    "keep": "/fonts/.keep"
   }
 }

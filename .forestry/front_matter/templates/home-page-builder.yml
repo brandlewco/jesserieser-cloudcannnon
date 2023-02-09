@@ -106,4 +106,4 @@ fields:
   - block-media-row
   - block-media-link
 pages:
-- content/_index.md
+- site/content/_index.md

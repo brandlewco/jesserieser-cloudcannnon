@@ -7,20 +7,20 @@ sections:
 - type: heading
   label: COLLECTIONS
 - type: document
-  path: content/_index.md
+  path: site/content/_index.md
   label: Selected Works
 - type: document
-  path: data/categories/categories.toml
+  path: site/site/data/categories/categories.toml
   label: All Works
 - type: directory
-  path: content/collections
+  path: site/content/collections
   label: Collections
   create: documents
   match: "**/*"
   templates:
   - collection-page-builder
 - type: directory
-  path: content/shop
+  path: site/content/shop
   label: Shop
   create: all
   match: "**/*"
@@ -29,14 +29,14 @@ sections:
 - type: heading
   label: CONTENT
 - type: directory
-  path: content/posts
+  path: site/content/posts
   label: Posts
   create: all
   match: "**/*"
   templates:
   - blog-post-builder
 - type: document
-  path: content/about/_index.md
+  path: site/content/about/_index.md
   label: About
 - type: heading
   label: Help

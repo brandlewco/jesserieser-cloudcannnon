@@ -1,4 +1,58 @@
 ---
+_inputs:
+  $.seo.meta_title:
+    comment: 50-60 character title of this page.
+  $.seo.meta_description:
+    comment: >-
+      110-160 character description of this page. Use as many keywords and
+      phrases as possible.
+  $.date:
+    instance_value: NOW
+    hidden: true
+  $.layout:
+    hidden: true
+  $.feature_cover:
+    hidden: true
+    type: file
+    label: Feature Cover Image
+  $.collection_meta:
+    label: SEO Description
+  $.cover_image:
+    label: SEO Cover Image
+    comment: This image is what appears in OpenGraph previews and image masks
+  $.selected_works_theme:
+    type: array
+    label: Random Featured Image
+    options:
+      structures: _structures.home-page-builder-selected_works_theme
+  $.home_theme_color:
+    hidden: true
+    label: Theme Color
+    options:
+      format: hex
+  $.navigation_theme:
+    type: select
+    label: Navigation Color
+    options:
+      values: _select_data.navigation_theme
+  $.feature_description:
+    type: markdown
+    label: Introduction
+    comment: Used for the top of the collection, and google meta data. (300 characters)
+  $.px_extra:
+    label: Extra Padding on Descriptions On Large Screens
+  $.row_alignment:
+    type: select
+    label: First Row Justification
+    comment: >-
+      start (left) / center (center) / end (right) / between (even space    
+      between media) / around (even space outside media)
+    options:
+      values: _select_data.row_alignment
+  $.page_sections:
+    type: array
+    options:
+      structures: _structures.home-page-builder-page_sections
 layout: blocks
 title: Jesse Rieser
 date: 2017-11-01T23:00:00.000+00:00

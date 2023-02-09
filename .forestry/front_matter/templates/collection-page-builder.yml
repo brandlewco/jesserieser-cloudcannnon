@@ -132,7 +132,7 @@ fields:
     source:
       type: documents
       section: collection-categories-b99848d2-f046-4ce8-b54c-5ae03cdbdc4b
-      file: data/categories/categories.toml
+      file: site/data/categories/categories.toml
       path: filter
   label: Work Type
 - name: collection_category
@@ -143,7 +143,7 @@ fields:
     max: 
     source:
       type: documents
-      file: data/categories/categories.toml
+      file: site/data/categories/categories.toml
       path: categories
       section: ''
   label: Collection Category
@@ -208,31 +208,31 @@ fields:
     through direct link.
   hidden: true
 pages:
-- content/collections/amtrak-texas-eagle.md
-- content/collections/antoine-s-escalaras.md
-- content/collections/arizona-office-of-tourism.md
-- content/collections/armani-anniversary.md
-- content/collections/barron-s-las-vegas-reopenning.md
-- content/collections/barrons-lake-mead-drought.md
-- content/collections/bloomberg-business-week.md
-- content/collections/espn-deandre-ayton.md
-- content/collections/espn-devin-booker-cover-story.md
-- content/collections/espn-ryan-resch.md
-- content/collections/golf-digest-1.md
-- content/collections/golf-digest.md
-- content/collections/gundemic.md
-- content/collections/national-geographic.md
-- content/collections/one-night-in-the-valley.md
-- content/collections/popular-mechanics.md
-- content/collections/runner-s-world.md
-- content/collections/smartwater.md
-- content/collections/the-new-york-times-1.md
-- content/collections/the-new-york-times-2.md
-- content/collections/the-new-york-times-3.md
-- content/collections/the-new-york-times-tj-newman.md
-- content/collections/the-new-york-times.md
-- content/collections/time-kari-lake.md
-- content/collections/vanishing-folklore.md
-- content/collections/vox-100-battles-ghost-towns.md
-- content/collections/wired-gunsite.md
-- content/collections/xmas-in-america.md
+- site/content/collections/amtrak-texas-eagle.md
+- site/content/collections/antoine-s-escalaras.md
+- site/content/collections/arizona-office-of-tourism.md
+- site/content/collections/armani-anniversary.md
+- site/content/collections/barron-s-las-vegas-reopenning.md
+- site/content/collections/barrons-lake-mead-drought.md
+- site/content/collections/bloomberg-business-week.md
+- site/content/collections/espn-deandre-ayton.md
+- site/content/collections/espn-devin-booker-cover-story.md
+- site/content/collections/espn-ryan-resch.md
+- site/content/collections/golf-digest-1.md
+- site/content/collections/golf-digest.md
+- site/content/collections/gundemic.md
+- site/content/collections/national-geographic.md
+- site/content/collections/one-night-in-the-valley.md
+- site/content/collections/popular-mechanics.md
+- site/content/collections/runner-s-world.md
+- site/content/collections/smartwater.md
+- site/content/collections/the-new-york-times-1.md
+- site/content/collections/the-new-york-times-2.md
+- site/content/collections/the-new-york-times-3.md
+- site/content/collections/the-new-york-times-tj-newman.md
+- site/content/collections/the-new-york-times.md
+- site/content/collections/time-kari-lake.md
+- site/content/collections/vanishing-folklore.md
+- site/content/collections/vox-100-battles-ghost-towns.md
+- site/content/collections/wired-gunsite.md
+- site/content/collections/xmas-in-america.md

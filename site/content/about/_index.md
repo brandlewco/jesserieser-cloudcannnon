@@ -1,4 +1,83 @@
 ---
+_inputs:
+  $.date:
+    hidden: true
+  $.layout:
+    hidden: true
+  $.collection_cover:
+    type: file
+    label: Cover Image
+  $.collection_cover_mobile:
+    type: file
+    label: Cover Image Mobile
+  $.theme_color:
+    options:
+      format: hex
+  $.navigation_theme:
+    type: multiselect
+    options:
+      values: _select_data.navigation_theme
+  $.collection_description:
+    hidden: true
+    type: markdown
+    label: Description
+  $.header_col_1_title:
+    type: markdown
+    label: Header Column 1 Title
+  $.header_col_1:
+    type: markdown
+    label: Header Column 1
+  $.header_col_2_title:
+    type: markdown
+    label: Header Column 2 Title
+  $.header_col_2:
+    type: markdown
+    label: Header Column 2
+  $.header_col_3_title:
+    type: markdown
+    label: Header Column 3 Title
+  $.header_col_3:
+    type: markdown
+    label: Header Column 3
+  $.about_bio:
+    type: markdown
+    label: Bio
+  $.about_bio_image:
+    label: Bio Image
+  $.about_bio_image_credit:
+    label: Bio Image Credit
+  $.about_bio_doodle_credit:
+    label: Bio Doodle Credit
+  $.row_alignment:
+    type: select
+    label: First Row Justification
+    comment: >-
+      start (left) / center (center) / end (right) / between (even space    
+      between media) / around (even space outside media)
+    options:
+      values: _select_data.row_alignment
+  $.page_sections:
+    type: array
+    options:
+      structures: _structures.about-page-builder-page_sections
+  $.cover_image:
+    label: Social Media Card
+    comment: This image is what appears in OpenGraph previews and image masks
+  $.cv:
+    type: file
+  $.cv_color:
+    options:
+      format: hex
+  $.footer_links:
+    type: array
+    options:
+      structures: _structures.about-page-builder-footer_links
+  $.seo.meta_title:
+    comment: 50-60 character title of this page.
+  $.seo.meta_description:
+    comment: >-
+      110-160 character description of this page. Use as many keywords and
+      phrases as possible.
 layout: blocks
 title: Say Hello
 date: 2017-11-02T23:00:00.000+00:00

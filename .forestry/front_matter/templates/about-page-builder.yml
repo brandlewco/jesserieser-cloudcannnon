@@ -190,4 +190,4 @@ fields:
   template: seo
   label: SEO
 pages:
-- content/about/_index.md
+- site/content/about/_index.md
