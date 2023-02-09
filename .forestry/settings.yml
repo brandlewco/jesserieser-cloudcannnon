@@ -10,7 +10,7 @@ sections:
   path: site/content/_index.md
   label: Selected Works
 - type: document
-  path: site/site/data/categories/categories.toml
+  path: site/data/categories/categories.toml
   label: All Works
 - type: directory
   path: site/content/collections

@@ -51,4 +51,4 @@ fields:
       section: collections
   label: Collections Footer Navigation
 pages:
-- site/site/data/categories/categories.toml
+- site/data/categories/categories.toml

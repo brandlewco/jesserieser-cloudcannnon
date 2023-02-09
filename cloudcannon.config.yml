@@ -7,7 +7,7 @@ collections_config:
         path: .cloudcannon/schemas/collection-page-builder.md
         name: Collections - Page Builder
         _enabled_editors:
-          - data
+          - visual
         _inputs:
           $.layout:
             hidden: true
@@ -126,7 +126,7 @@ collections_config:
         path: .cloudcannon/schemas/shop.md
         name: Shop
         _enabled_editors:
-          - data
+          - visual
         _inputs:
           $.layout:
             hidden: true
