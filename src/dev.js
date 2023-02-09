@@ -16,35 +16,35 @@ import smoothscroll from "smoothscroll-polyfill";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
 
 // Page Loader (SWUP)
-const options = {
-  containers: ["#navigation", "#content"],
-  plugins: [
-    new SwupScrollPlugin({
-      animateScroll: false,
-      scrollFriction: 0.4,
-      scrollAcceleration: 0.04,
-      doScrollingRightAway: false
-    }),
-    new SwupGtmPlugin(),
-    // new SwupPreloadPlugin(),
-    new SwupBodyClassPlugin(),
-    new SwupScriptsPlugin({
-      head: false,
-      body: false
-    })
-  ],
-  animateHistoryBrowsing: true,
-  preload: true,
-  cache: true,
-  linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
-  skipPopStateHandling: function(event) {
-    if (event.state && event.state.source === "swup") {
-      return false;
-    }
-    return true;
-  }
-};
-const swup = new Swup(options);
+// const options = {
+//   containers: ["#navigation", "#content"],
+//   plugins: [
+//     new SwupScrollPlugin({
+//       animateScroll: false,
+//       scrollFriction: 0.4,
+//       scrollAcceleration: 0.04,
+//       doScrollingRightAway: false
+//     }),
+//     new SwupGtmPlugin(),
+//     // new SwupPreloadPlugin(),
+//     new SwupBodyClassPlugin(),
+//     new SwupScriptsPlugin({
+//       head: false,
+//       body: false
+//     })
+//   ],
+//   animateHistoryBrowsing: true,
+//   preload: true,
+//   cache: true,
+//   linkSelector: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="/"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+//   skipPopStateHandling: function(event) {
+//     if (event.state && event.state.source === "swup") {
+//       return false;
+//     }
+//     return true;
+//   }
+// };
+// const swup = new Swup(options);
 
 // swup.on("contentReplaced", init);
 
