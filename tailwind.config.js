@@ -398,7 +398,7 @@ module.exports = {
   plugins: [require("tailwindcss-aspect-ratio")],
   purge: {
     enabled: true,
-    content: ["./layouts/**/*.html"],
+    content: ["./site/layouts/**/*.html"],
     // These options are passed through directly to PurgeCSS
     options: {
       whitelist: [

@@ -213,7 +213,7 @@ header#project-header img.featured {
 } */
 
 header#project-header img.featured {
-  mask-image: url("/r-mask.svg");
+  /* mask-image: url(".../.../static/r-mask.svg"); */
   mask-repeat: no-repeat;
   mask-position: center 40%;
   mask-size: 25% auto;

@@ -1,0 +1,16 @@
+{
+  "main": {
+    "css": "main.51abd.css",
+    "js": "main.51abd.js"
+  },
+  "filter": {
+    "js": "filter.51abd.js"
+  },
+  "shop": {
+    "js": "shop.51abd.js"
+  },
+  "": {
+    "html": "index.html",
+    "keep": "fonts/.keep"
+  }
+}
